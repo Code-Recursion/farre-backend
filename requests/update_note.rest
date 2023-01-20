@@ -1,0 +1,10 @@
+PUT http://localhost:3001/api/notes/id
+Content-Type: application/json
+
+{
+  "title": "title",
+  "content": "upserted note with id 1",
+  "important": true,
+  "completed": true,
+  "id": "1"
+}
