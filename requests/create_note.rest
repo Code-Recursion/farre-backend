@@ -2,8 +2,10 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "title": "title",
-  "content": "yo",
-  "important": true,
-  "completed": true
+  "note": {
+    "title": "title",
+    "content": "creating test note",
+    "important": false,
+    "completed": false
+  }
 }
