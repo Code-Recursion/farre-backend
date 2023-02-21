@@ -51,7 +51,7 @@ notesRouter.post("/", (request, response, next) => {
   newNote
     .save()
     .then((res) => {
-      response.json(res)
+      response.satatus(200).json(res)
     })
     .catch(error => next(error))
 });
